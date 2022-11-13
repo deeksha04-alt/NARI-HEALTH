@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NARI_HEALTH</title>
+<meta charset="UTF-8">
+<link rel="icon" type="image/x-icon" href="/images/nari.jpg">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="quiz (2).css">
+<link rel="stylesheet" href="trial.css">
+
+
+<link rel="stylesheet" href="homee.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
+</style>
+</head>
+<body class="w3-light-grey">
+
+<!-- Navigation Bar -->
+<div class="w3-bar w3-white w3-large">
+  <a href="#" class="w3-bar-item w3-button w3-red w3-mobile">NARI-HEALTH</a>
+  <a href="#rooms" class="w3-bar-item w3-button w3-mobile">HEALTH</a>
+  <a href="try.html" class="w3-bar-item w3-button w3-mobile" target="_blank">PEROIOD TRACKER</a>
+  <a href="quiz (2).html" class="w3-bar-item w3-button w3-mobile" target="_blank">MENTAL HEALTH ISSUE</a>
+  <a href="booking.html" class="w3-bar-item w3-button w3-right w3-light-grey w3-mobile" target="_blank">Book APPOINTMENT</a>
+</div>
+<!-- Header -->
+<header class="w3-display-container w3-content" style="max-width:1500px;">
+  <img class="w3-image" src="images/WhatsApp Image 2022-11-13 at 12.jpg"  style="min-width:1000px" width="100%" height="800">
+  <div class="w3-display-left w3-padding w3-col l6 m8">
+    <div class="w3-container w3-red">
+      <h2>NARI-HEALTH</h2>
+    </div>
+    <div class="w3-container w3-white w3-padding-16">
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px;">
+          <div class="w3-half w3-margin-bottom">
+            <label><i class="fa fa-calendar-o"></i> lorem2 </label>
+            <input class="w3-input w3-border" type="text" placeholder="DD MM YYYY" name="CheckIn" required>
+          </div>
+          <div class="w3-half">
+            <label><i class="fa fa-calendar-o"></i> Check Out</label>
+            <input class="w3-input w3-border" type="text" placeholder="DD MM YYYY" name="CheckOut" required>
+          </div>
+        </div>
+        <div class="w3-row-padding" style="margin:8px -16px;">
+          <div class="w3-half w3-margin-bottom">
+            <label><i class="fa fa-male"></i> DOCTOR</label>
+            <input class="w3-input w3-border" type="number" value="1" name="Adults" min="1" max="6">
+          </div>
+          <div class="w3-half">
+            <label><i class="fa fa-child"></i> PATIENT</label>
+          <input class="w3-input w3-border" type="number" value="0" name="Kids" min="0" max="6">
+          </div>
+        </div>
+        <button class="w3-button w3-dark-grey" type="submit"><i class="fa fa-search w3-margin-right"></i> Search availability</button>
+      </form>
+    </div>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1532px;">
+
+  <div class="w3-container w3-margin-top" id="rooms">
+    <h3>MEET OUR DOCTORS</h3>
+    <p><Q><B>MEDICINE CAN CURE DISEASES BUT ONLY DOCTOR CAN CURE PATIENTS
+      </B></Q></p>
+  </div>
+  
+  <div class="w3-row-padding">
+    <!--
+    </html><div class="w3-col m3">
+      <label><i class="fa fa-calendar-o"></i> Check IN</label>
+      <input class="w3-input w3-border" type="text" placeholder="DD MM YYYY">
+    </div>
+    <div class="w3-col m3">
+      <label><i class="fa fa-calendar-o"></i> Check Out</label>
+      <input class="w3-input w3-border" type="text" placeholder="DD MM YYYY">
+    </div>
+    --->
+    <div class="w3-col m2">
+      <label>YOUR NAME </label>
+      <input class="w3-input w3-border" type="text" placeholder="name">
+    </div>
+    <div class="w3-col m2">
+      <label>YOUR PROBLEM</label>
+      <input class="w3-input w3-border" type="text" placeholder="problem">
+    </div>
+    <div class="w3-col m2">
+      <label>LETS FIND YOUR DOCTOR</label>
+      <button class="w3-button w3-block w3-black">Search</button>
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-padding-16">
+    <div class="w3-third w3-margin-bottom">
+      <img src="images/WhatsApp Image 2022-11-13 at 12.54.02 AM (1).jpeg" alt="Norway" style="width:100%">
+      <div class="w3-container w3-white">
+        <h3>COUNSELLING</h3>
+        
+        <button class="w3-button w3-block w3-black w3-margin-bottom">Choose doctor</button>
+      </div>
+    </div>
+    <div class="w3-third w3-margin-bottom">
+      <img src="images/WhatsApp Image 2022-11-13 at 12.54.02 AM (2).jpeg" alt="Norway" style="width:100%">
+      <div class="w3-container w3-white">
+        <h3>PERIODS PROBLEM</h3>
+      
+        <button class="w3-button w3-block w3-black w3-margin-bottom">Choose doctor</button>
+      </div>
+    </div>
+    <div class="w3-third w3-margin-bottom">
+      <img src="images/WhatsApp Image 2022-11-13 at 12.46.42 AM.jpeg" alt="Norway" style="width:100%">
+      <div class="w3-container w3-white">
+        <h3>PREGNANCY</h3>
+    
+        <button class="w3-button w3-block w3-black w3-margin-bottom">Choose doctor</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding" id="about">
+    <div class="w3-col l4 12">
+      <h3>About</h3>
+      <q> Hello Naris, it's time for you to break free of your confinements, expand your wings, and soar high.
+        We offer you Nari Health as a one-stop solution for all of your issues.
+        It offers you advice from the greatest medical professionals in India with just one magical click.
+        
+     
+     <br>   We cater to wide spectrum of needs , from menstrual cramps to pregnancy concerns, from mental health to counselling services.
+        <br>
+        <br>
+     Begin your lovely journey with us....
+     <br>
+     <BR>
+     <B>LOVE AND POWER TO ALL THE NARIIS</B>
+        </q>    </div>
+    <div class="w3-col l8 12">
+      <!-- Image of location/map -->
+      <img src="images/WhatsApp Image 2022-11-13 at 12.46.15 AM.jpeg" class="w3-image w3-greyscale" style="width:100%;">
+    </div>
+  </div>
+  
+  <div class="w3-row-padding w3-large w3-center" style="margin:32px 0">
+    <div class="w3-third"><i class="fa fa-map-marker w3-text-red"></i> india</div>
+    <div class="w3-third"><i class="fa fa-phone w3-text-red"></i> phone: 001111</div>
+    <div class="w3-third"><i class="fa fa-envelope w3-text-red"></i> Email: mail@email.com</div>
+  </div>
+
+  
+  <div class="w3-container" id="contact">
+    <h2>Contact</h2>
+    <p>If you have any questions, do not hesitate to ask them.</p>
+    <i class="fa fa-map-marker w3-text-red" style="width:30px"></i> india<br>
+    <i class="fa fa-phone w3-text-red" style="width:30px"></i> Phone: +11111<br>
+    <i class="fa fa-envelope w3-text-red" style="width:30px"> </i> Email: mail@email.com<br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p><button class="w3-button w3-black w3-padding-large" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-padding-32 w3-black w3-center w3-margin-top">
+  <h5>Find Us On</h5>
+  <div class="w3-xlarge w3-padding-16">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by <a href="" target="_blank" class="w3-hover-text-green">NARI-HEALTH</a></p>
+</footer>
+
+<!-- Add Google Maps -->
+<script>
+function myMap() {
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>
